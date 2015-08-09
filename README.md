@@ -12,11 +12,11 @@ Todo application using Laravel lumen micro framework and AngularJS
 - Sort Todos
 - Complete Todos
 
-## Images
+## Screenshots
 
-![](/public/images/todos_all.png =500x300)
+![Alt text](/public/images/todos_all.png?raw=true)
 
-![](/public/images/update_todo.png =500x300)
+![Alt text](/public/images/update_todo.png)
 
 ## Getting Started
 
