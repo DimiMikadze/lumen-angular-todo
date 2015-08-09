@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400);
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container { width: 95%; }
+
+.main-container {  position: relative;  }
+
+table tr th, h1 {  color: #5e5d5d;  }
+
+textarea {  resize: none;  }
+
+#add_todo_form {
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    top: 20%;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #afafaf;
+    z-index: 10;
+}
+
+#add-form-container h3 {
+    text-align: center;
+    color: #afafaf;
+    margin-top: 0;
+}
+
+input[type=checkbox] {
+    display: block;
+    margin-left: 30px;
+}
+
+#add_todo_form .close-add-form {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    color: #d9dadb;
+
+}
+
+.completedtrue {
+    text-decoration: line-through;
+    color: #9b9b9b;
+}
+
+.form-error {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    display: block;
+    color: #db1a1a;
+}
+
+.todo-name {
+    cursor: pointer;
+}
+
+.todo-name:hover {
+    color: #3388cc;
+    text-decoration: underline;
+}
+
+.loading-gif {
+    position: absolute; top: -50px;
+    margin-top: 30px;
+}
+
+.submit-button {
+    position: relative;
+    text-align: center;
+}
+
+.add-form-button {
+    margin-top: 25px;
+}
