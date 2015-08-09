@@ -14,9 +14,9 @@ Todo application using Laravel lumen micro framework and AngularJS
 
 ## Images
 
-![](./public/images/todos_all.png =500x300)
+![](/public/images/todos_all.png =500x300)
 
-![](./public/images/update_todo.png =500x300)
+![](/public/images/update_todo.png =500x300)
 
 ## Getting Started
 
@@ -42,6 +42,7 @@ DB_PASSWORD=databasepassword
 CACHE_DRIVER=file
 SESSION_DRIVER=file
 QUEUE_DRIVER=database
+````
 
 Migrate todos table
 
