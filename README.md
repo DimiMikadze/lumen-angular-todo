@@ -31,7 +31,7 @@ Create Database
 Cd project and run composer update
 
 ````
-cd lumen-angular todo & composer-update
+cd lumen-angular-todo & composer update
 ````
 
 Add .env file to root directory. 
