@@ -26,7 +26,17 @@ Clone Repo
 git clone https://github.com/DimitriMikadze/Lumen-Angular-Todo.git
 ````
 
-Add .env file to root directory, Example: 
+Create Database
+
+Cd project and run composer update
+
+````
+cd lumen-angular todo & composer-update
+````
+
+Add .env file to root directory. 
+
+Example: 
 
 ````
 APP_ENV=local
