@@ -1,7 +1,7 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
-    "keywords": ["framework", "laravel", "lumen"],
+    "name": "lumen-angular-todo",
+    "description": "todo aplication with larvel lumen and angularjs",
+    "keywords": ["angulajs", "laravel", "lumen"],
     "license": "MIT",
     "type": "project",
     "require": {

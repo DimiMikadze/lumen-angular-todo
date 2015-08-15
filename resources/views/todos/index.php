@@ -41,11 +41,8 @@
 
 </div>
 
-<script src="/js/moment.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
-<script src="/js/main.js"></script>
-<script src="/js/controllers.js"></script>
-<script src="/js/directives.js"></script>
+<script src="/js/app.min.js"></script>
 <script>
     angular.module("app").constant("CSRF_TOKEN", '<?php echo csrf_token(); ?>');
 </script>
