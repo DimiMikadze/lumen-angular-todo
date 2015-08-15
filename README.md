@@ -36,14 +36,6 @@ composer update
 npm install
 ````
 
-## Grunt Packages
-
-````
-grunt-contrib-concat
-grunt-contrib-uglify
-grunt-contrib-watch
-````
-
 Add .env file to root directory. 
 
 Example: 
@@ -74,6 +66,14 @@ Start Server
 
 ````
 php artisan serve
+````
+
+## Grunt Packages
+
+````
+grunt-contrib-concat
+grunt-contrib-uglify
+grunt-contrib-watch
 ````
 
 ## Start Grunt
