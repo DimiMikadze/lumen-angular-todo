@@ -82,6 +82,8 @@ grunt-contrib-watch
 grunt
 ````
 
+output will look like this
+
 ````
 Running "concat:dist" (concat) task
 File public/js/app.js created.
