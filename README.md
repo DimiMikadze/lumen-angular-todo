@@ -28,10 +28,20 @@ git clone https://github.com/DimitriMikadze/Lumen-Angular-Todo.git
 
 Create Database
 
-Cd project and run composer update
+Cd project and run composer update and npm install
 
 ````
-cd lumen-angular-todo & composer update
+cd lumen-angular-todo
+composer update 
+npm install
+````
+
+## Grunt Packages
+
+````
+grunt-contrib-concat
+grunt-contrib-uglify
+grunt-contrib-watch
 ````
 
 Add .env file to root directory. 
@@ -66,13 +76,31 @@ Start Server
 php artisan serve
 ````
 
+## Start Grunt
+
+````
+grunt
+
+Running "concat:dist" (concat) task
+File public/js/app.js created.
+
+Running "uglify:my_target" (uglify) task
+>> 1 file created.
+
+Running "watch" task
+Waiting...
+````
+
 ## Lumen 
 
 lumen rest api is located in routes.php file, app/Http/routes.php
 
-## Angular Files
+## Angular
 
-you can find angular files in, public/js
+you can find angular files in, resources/js
+
+Angular concatenated file in public/js/app.
+Angular concatenated and minified version in public/js/app.min.js
 
 ## Contributing
 
